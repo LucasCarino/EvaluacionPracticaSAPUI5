@@ -32,7 +32,7 @@
 			<Column
 				minScreenWidth="Desktop"
 				demandPopin="true"
-				hAlign="Center">
+				hAlign="End">
 				<Text text="{i18n>Weight}" />
 			</Column>
 			<Column
@@ -41,7 +41,7 @@
 			</Column>
 		</columns>
 		<items>
-			<ColumnListItem type="Active" press="getDetail">
+			<ColumnListItem type="Active" press="getDetail" >
 				    <cells>
                         <Text text="{modelProducts>product}" />
                     </cells>
