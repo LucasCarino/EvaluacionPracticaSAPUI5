@@ -1,0 +1,27 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run EvaluacionPractica-EvaluacionPractica",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/evaluacionpractica-approuter/node_modules/@sap/html5-repo-mock/index.js",
+      "args": [
+        "--standalone",
+        "/EvaluacionPracticaEvaluacionPractica/index.html",
+        "--ui5",
+        "{\"version\":\".\"}"
+      ],
+      "cwd": "${workspaceFolder}/EvaluacionPractica",
+      "env": {
+        "PORT": "6004",
+        "MOCK_LOOKUP_DIRS": "[\"webapp\"]",
+        "run.config": "{\"handlerId\":\"ui5_run_config_handler_id\",\"runnableId\":\"/home/user/projects/EvaluacionPractica/EvaluacionPractica\"}"
+      },
+      "envFile": "${workspaceFolder}/EvaluacionPractica/.env2",
+      "preLaunchTask": "Build EvaluacionPractica"
+    }
+  ]
+}

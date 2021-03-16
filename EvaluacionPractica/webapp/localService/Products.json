@@ -1,0 +1,130 @@
+{
+    "value": [
+        {
+            "product": "10 Portable DVD player",
+            "supplier": "Titanium",
+            "dimensions": "24 x 19.5 x 29 cm",
+            "weight": "0.84",
+            "price": "44449.99"
+        }, 
+        {
+            "product": "7 Widescreen Portable DVD Player w MP3",
+            "supplier": "Titanium",
+            "dimensions": "21.4 x 19 x 27.6 cm",
+            "weight": "0.79",
+            "price": "22249.99"
+        }, 
+        {
+            "product": "Astro Laptop 1516",
+            "supplier": "Ultrasonic United",
+            "dimensions": "30 x 18 x 3 cm",
+            "weight": "4.2",
+            "price": "99989.00"
+        }, 
+        {
+            "product": "Astro Phone 6",
+            "supplier": "Ultrasonic United",
+            "dimensions": "8 x 6 x 1.5 cm",
+            "weight": "0.75",
+            "price": "66649.00"
+        }, 
+        {
+            "product": "Audio/Video Cable Kit - 4m",
+            "supplier": "Titanium",
+            "dimensions": "21 x 10.2 x 13 cm",
+            "weight": "0.2",
+            "price": "2229.99"
+        }, 
+        {
+            "product": "Beam Breaker B-1",
+            "supplier": "Titanium",
+            "dimensions": "30.4 x 23.1 x 23 cm",
+            "weight": "1.7",
+            "price": "44469.00"
+        }, 
+        {
+            "product": "Beam Breaker B-2",
+            "supplier": "Technocom",
+            "dimensions": "30.4 x 23.1 x 23 cm",
+            "weight": "2.00",
+            "price": "66679.00"
+        }, 
+        {
+            "product": "Beam Breaker B-3",
+            "supplier": "Technocom",
+            "dimensions": "30.4 x 23.1 x 23 cm",
+            "weight": "2.50",
+            "price": "88889.00"
+        },
+        {
+            "product": "Beam Breaker B-3",
+            "supplier": "Technocom",
+            "dimensions": "30.4 x 23.1 x 23 cm",
+            "weight": "2.50",
+            "price": "88889.00"
+        },
+        {
+            "product": "Benda Laptop 1408",
+            "supplier": "Ultrasonic United",
+            "dimensions": "30 x 18 x 3 cm",
+            "weight": "4.20",
+            "price": "99976.00"
+        },
+        {
+            "product": "Bending Screen 21HD",
+            "supplier": "Ultrasonic United",
+            "dimensions": "37 x 12 x 36 cm",
+            "weight": "15",
+            "price": "22250.00"
+        },
+        {
+            "product": "Blaster Extreme",
+            "supplier": "Speaker Experts",
+            "dimensions": "13 x 11 x 17.5 cm",
+            "weight": "1.40",
+            "price": "2226.00"
+        },
+        {
+            "product": "Broad Screen 22HD",
+            "supplier": "Ultrasonic United",
+            "dimensions": "39 x 12 x 38 cm",
+            "weight": "16",
+            "price": "22270.00"
+        },
+        {
+            "product": "Camcorder View",
+            "supplier": "Ultrasonic United",
+            "dimensions": "48 x 31 x 27 cm",
+            "weight": "2.80",
+            "price": "111,388.00"
+        },
+        {
+            "product": "CD/DVD case: 264 sleeves",
+            "supplier": "Titanium",
+            "dimensions": "13 x 13 x 20 cm",
+            "weight": "0.65",
+            "price": "4444.99"
+        },
+        {
+            "product": "Cepat Tablet 10.5",
+            "supplier": "Ultrasonic United",
+            "dimensions": "48 x 31 x 4.5 cm",
+            "weight": "2.80",
+            "price": "55549.00"
+        },
+        {
+            "product": "Cepat Tablet 8",
+            "supplier": "Ultrasonic United",
+            "dimensions": "38 x 21 x 3.5 cm",
+            "weight": "2.50",
+            "price": "55529.00"
+        },
+        {
+            "product": "Cerdik Phone 7",
+            "supplier": "Ultrasonic United",
+            "dimensions": "9 x 15 x 1.5 cm",
+            "weight": "0.75",
+            "price": "55549.00"
+        }
+    ]
+}

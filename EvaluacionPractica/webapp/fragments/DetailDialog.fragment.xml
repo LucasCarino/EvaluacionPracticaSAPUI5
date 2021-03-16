@@ -1,0 +1,17 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <Dialog id="DetailDialog"
+    title="Detalle del producto"
+    >   
+        <FlexBox direction="Column">
+            <Text text="{i18n>DetailDialogProduct}: {modelDetail>/product}" />
+            <Text text="{i18n>DetailDialogSupplier}: {modelDetail>/supplier}" />
+            <Text text="{i18n>DetailDialogDimensions}: {modelDetail>/dimensions}" />
+            <Text text="{i18n>DetailDialogWeight}: {modelDetail>/weight} KG" />
+            <Text text="{i18n>DetailDialogEURPrice}: {path: 'modelDetail>/price', formatter: '.Formatter.formatPrice'} EUR" />
+            <Text text="{i18n>DetailDialogARSPrice}: {path: 'modelDetail>/price'} ARS" />
+        </FlexBox>
+        <Button text="Salir" press="closeDialog" />
+    </Dialog>
+</core:FragmentDefinition>
