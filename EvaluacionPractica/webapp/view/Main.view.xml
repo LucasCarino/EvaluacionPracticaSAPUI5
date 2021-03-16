@@ -1,4 +1,4 @@
-3<mvc:View controllerName="EvaluacionPractica.EvaluacionPractica.controller.Main" 
+<mvc:View controllerName="EvaluacionPractica.EvaluacionPractica.controller.Main" 
 xmlns:mvc="sap.ui.core.mvc" 
 displayBlock="true" 
 xmlns="sap.m"
@@ -8,7 +8,10 @@ xmlns:tnt="sap.tnt"
 	<Page id="page" title="{i18n>title}">
 		<content>
             <tnt:ToolHeader>
-                <ToggleButton text="{i18n>SetLanguage}" press="changeLanguage"/>
+                <ToggleButton text="{i18n>SetLanguage}" press="changeLanguage" width="150px"/>
+                <Image height="110%" src="https://corra.com/wp-content/uploads/Sap-Logo--e1530285069227.png" />
+                <Text text="{i18n>Welcome}" />
+                <ToolbarSpacer />
                 <SearchField width="300px"
                 placeholder="{i18n>Country}"
                 value="{modelSearch>/country}"
@@ -24,7 +27,7 @@ xmlns:tnt="sap.tnt"
                     <core:Item key="{modelSupplies>name}" text="{modelSupplies>name}" />
                 </ComboBox>
                 <DatePicker value="{modelSearch>/date}" valueFormat="dd/MM/yyyy" width="240px" placeholder="{i18n>Date}"/>
-                <Button text="{i18n>ButtonGo}" press="onPressSearch"/>
+                <Button text="{i18n>ButtonGo}" press="onPressSearch" width="80px"/>
             </tnt:ToolHeader>
             <core:Fragment id="fragmentTable" fragmentName="EvaluacionPractica.EvaluacionPractica.fragments.Table" type="XML" />
         </content>

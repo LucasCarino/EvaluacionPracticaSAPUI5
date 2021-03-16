@@ -11,7 +11,10 @@
             <Text text="{i18n>DetailDialogWeight}: {modelDetail>/weight} KG" />
             <Text text="{i18n>DetailDialogEURPrice}: {path: 'modelDetail>/price', formatter: '.Formatter.formatPrice'} EUR" />
             <Text text="{i18n>DetailDialogARSPrice}: {path: 'modelDetail>/price'} ARS" />
+            <FlexBox alignItems="Center" justifyContent="Center">
+                <Button text="Salir" press="closeDialog" width="160px"/>
+            </FlexBox>
+
         </FlexBox>
-        <Button text="Salir" press="closeDialog" />
     </Dialog>
 </core:FragmentDefinition>
